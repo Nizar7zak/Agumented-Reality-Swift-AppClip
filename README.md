@@ -2,55 +2,55 @@
 
 ### 1. first of All create new project XCode.
 
-![](https://hackmd.io/_uploads/By92pVFKn.png)
+![](./sreenshots/1.png)
 
 ### 2. Choose Agumented Reality APP
 
-![](https://hackmd.io/_uploads/HJDzRNYt3.png)
+![](./sreenshots/2.png)
 
 ### 3. fill the form with your product name.
 You should have a vaild Team, with permissions (**ADMIN**) in app store connect, just to have an ability to publish your porject.
 
 For content Technology, you should choose **SceneKit**.
 
-![](https://hackmd.io/_uploads/ryDh0VKtn.png)
+![](./sreenshots/3.png)
 
 ### 4. Good, now we have a new project, the first thing you should do now, go to the **art** directory and delete all content in this folder.
 
-![](https://hackmd.io/_uploads/rJzdkBKYn.png)
+![](./sreenshots/4.png)
 
 ### 5. Now prepare the images you want to track, you should have a detailed image and good resoluiton.
 #### Ensure you have an image with **PNG** extension.
 In this tutorial we will use the following images to detect.
 
-![](https://hackmd.io/_uploads/SkwAlBFtn.jpg)
-![](https://hackmd.io/_uploads/HyJxbBFFh.jpg)
+![](./sreenshots/5.jpeg)
+![](./sreenshots/6.jpeg)
 
 ### 6. We should add our images to the project. 
 For that go to **Assets** folder and below AppIcon, right click and choose **AR and Textures** then click on **New AR Resource Group** rename the Folder you created to **Pokemon Cards**.
 
-![](https://hackmd.io/_uploads/HyhMXBtK3.png)
+![](./sreenshots/7.png)
 
 Now We should drag and drop our images in the Box. 
 
-![](https://hackmd.io/_uploads/S1m-VBFKn.png)
+![](./sreenshots/8.png)
 
 As you notice we have an Warning, Don't Worry, This because when we add new AR assets we must specify the width and height for it, so you should specify the width in meters, and the height calculated automatically based on the dimensions of the Image.
 
 So in the right side bar you should edit the width... 
 
-![](https://hackmd.io/_uploads/rykjUSYt3.png)
+![](./sreenshots/9.png)
 
 As you see the error disappered.
 
 ### 7. let's Code and add these assets in viewController.
 a. in **the viewDidLoad()** function, **delete** the lines selected in the following image.
 
-![](https://hackmd.io/_uploads/rJ72DSFYn.png)
+![](./sreenshots/10.png)
 
 b. Now the time to tell our app where is the images to be tracking. That will be done in the **viewWillAppear()** function
 
-![](https://hackmd.io/_uploads/rkgSFBKK2.png)
+![](./sreenshots/11.png)
 
 As you notice the **inGroupNamed** value equal the folder name where we put the images to Track, and the number of **Images to track is equal 2**.
 
@@ -78,11 +78,11 @@ As you notice the **inGroupNamed** value equal the folder name where we put the 
 ### 8. How to add plane to our Card just to ensure we have good Tracking process.
 a. First of all delete these lines of code. 
 
-![](https://hackmd.io/_uploads/r1CnGLKY2.png)
+![](./sreenshots/12.png)
 
 b. now right the renderer function in the same place.
 
-![](https://hackmd.io/_uploads/ry7PSItF2.png)
+![](./sreenshots/13.png)
 
 #### Here is the Code. 
 ```
@@ -113,7 +113,7 @@ b. now right the renderer function in the same place.
 If you build your app locally, you can check the if our app working very well!
 #### here is the result, as you can see we have a white plane rendered above our CARD.
 
-![](https://hackmd.io/_uploads/rkkrUIFY2.jpg)
+![](/sreenshots/14.jpeg)
 
 ### 9. Add 3D models to *USDZ* file format.
 
@@ -124,24 +124,24 @@ a. Download these models USDZ format
 
 b. Then drag and drop your models into **art** assets.
 
-![](https://hackmd.io/_uploads/rkx8uOFKh.jpg)
+![](/sreenshots/15.jpeg)
 
 c. Now you should convert your objects and play with Scale and position as you want. 
 > Check this **[Video](https://www.youtube.com/watch?v=if2jW_wO7K0)** please to know how to handle that.
 
 d. Then Change the name instead of scene to **eevee** and **oddish**
 
-![](https://hackmd.io/_uploads/By1NDYYK2.jpg)
+![](/sreenshots/16.jpeg)
 
 e. In your **viewDidLoad()** function add **autoenablesDefaultLighting**
 
     sceneView.autoenablesDefaultLighting = true
 
-![](https://hackmd.io/_uploads/HkZLOYFtn.png)
+![](/sreenshots/17.png)
 
 f. Now you should add your object to the plane we create before.
 
-![](https://hackmd.io/_uploads/HJfAOYKY2.png)
+![](/sreenshots/18.png)
 
 
 ### Your function RENDERER should be like this:-
