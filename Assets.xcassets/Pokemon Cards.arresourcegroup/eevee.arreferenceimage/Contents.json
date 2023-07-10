@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "eevee.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "width" : 0.069000000000000006
+  }
+}
