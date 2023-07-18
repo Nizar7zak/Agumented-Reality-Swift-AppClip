@@ -122,6 +122,8 @@ a. Download these models USDZ format
 **[3D MODEL.USDZ-1 EEVEE](https://sketchfab.com/3d-models/eevee-pokemon-be609d949bc94e12a0add74c35ffa1b9#download)**
 **[3D MODEL.USDZ-2 ODDISH](https://sketchfab.com/3d-models/oddish-in-a-flowerpot-pokemon-868cf7face2e49c3954ede36d0f40b34#download)**
 
+# If you want to animate your 3D Objects! Please follow this **[Tutorial-guideline](https://www.youtube.com/watch?v=F1FyO0L6Q2Y)**.
+
 b. Then drag and drop your models into **art** assets.
 
 ![](/sreenshots/15.jpeg)
